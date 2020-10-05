@@ -6,6 +6,7 @@ public class Login {
         String password;
         String jawab;
         Scanner inputUser= new Scanner(System.in);
+        System.out.println("==== Login ====");
         System.out.print("Username mu: ");
         username= inputUser.next();
         System.out.print("Password mu: ");
@@ -28,9 +29,9 @@ public class Login {
                 }
 
             }else if(jawab.equals("Tidak")){
-                System.out.println("Log Out");
+                System.out.println("==== Log Out ====");
             }else{
-                System.out.println("Log Out");
+                System.out.println("==== Log Out ====");
             }
 
         }
