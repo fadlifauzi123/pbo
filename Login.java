@@ -27,8 +27,10 @@ public class Login {
                     System.out.println("Selamat Datang, "+username);
                 }
 
+            }else if(jawab.equals("Tidak")){
+                System.out.println("Log Out");
             }else{
-                System.out.println("OUT!!!");
+                System.out.println("Log Out");
             }
 
         }
